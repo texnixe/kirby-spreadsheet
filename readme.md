@@ -2,7 +2,7 @@
 
 Version 0.1.0
 
-This plugin provides a Kirbytag, which lets you reference a spreadsheet. The columns and rows of the spreadsheet are then inserted as a table.
+Include a table inside your textarea field from an .xlsx spreadsheet or comma separated text file. This plugin provides a Kirbytag, which lets you reference a spreadsheet. The columns and rows of the spreadsheet are then inserted as a table.
 
 ## Installation
 
@@ -15,7 +15,7 @@ Installing via Kirby's [command line interface](https://github.com/getkirby/cli)
 
     $ kirby plugin:install texnixe/kirby-spreadsheet
 
-To update Logger, run:
+To update the plugin, run:
 
     $ kirby plugin:update texnixe/kirby-spreadsheet
 
