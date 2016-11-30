@@ -8,7 +8,7 @@ Include a table inside your textarea field from an .xlsx spreadsheet or comma se
 
 ### Download
 
-[Download the files](https://github.com/texnixe/kirby-logger/archive/master.zip) and place them inside `site/plugins/kirby-spreadsheet`.
+[Download the files](https://github.com/texnixe/kirby-spreadsheet/archive/master.zip) and place them inside `site/plugins/kirby-spreadsheet`.
 
 ### Kirby CLI
 Installing via Kirby's [command line interface](https://github.com/getkirby/cli):
