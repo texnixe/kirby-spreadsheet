@@ -15,7 +15,7 @@ $kirby->set('tag', 'spreadsheet', array(
 
     if(! $file) return '';
 
-    $reader = new SpreadsheetReader(kirby()->roots()->content() . DS . $file->uri());
+    $reader = new SpreadsheetReader(kirby()->roots()->content() . DS . $file->diruri());
 
     if($sheet) {
       $sheets = $reader->sheets();
