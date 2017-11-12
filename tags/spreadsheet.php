@@ -38,7 +38,7 @@ $kirby->set('tag', 'spreadsheet', array(
       $htr = new Brick('tr');
 
       foreach($tablehead as $colname) {
-        $htr->append('<td>' . $colname . '</td>');
+        $htr->append('<th>' . $colname . '</th>');
       }
       $thead->append($htr);
       $table->append($thead);
